@@ -84,8 +84,6 @@ namespace Dynamic_Array
             D.insert(9999, 3);
             D.print();
             D.find(4);
-
-
         }
     }
     }
