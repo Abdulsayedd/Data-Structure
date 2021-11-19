@@ -101,7 +101,7 @@ namespace Single_Linked_List
             else
                 Console.WriteLine("Not found in the linked list ");
         }
-        public void delete_in_position(int pos)
+        public void delete_in_position(int pos)//مش جاي في الميد
         {
             Node p = head;
             int p1 = 1;
@@ -113,7 +113,7 @@ namespace Single_Linked_List
             p.next = p.next.next;
             coun--;
         }
-        public void delete_by_item(int item)
+        public void delete_by_item(int item)//مش جاي في الميد
         {
             Node p = head;
             int p2 = 1;
@@ -132,7 +132,7 @@ namespace Single_Linked_List
             }
             coun--;
         }
-        public void delete_last()
+        public void delete_last()//مش جاي في الميد
         {
             Node p = head;
             while (p.next.next!=null)
