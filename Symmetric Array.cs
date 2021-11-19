@@ -2,7 +2,6 @@ using System;
 
 namespace Symmetric_Array
 {
-
     class Program
     {
         static void Main(string[] args)
