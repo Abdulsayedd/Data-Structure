@@ -1,7 +1,7 @@
 using System;
 using System.Diagnostics;
 
-namespace Struuct
+namespace DD_ARRAY
 {
         class Program
      {
