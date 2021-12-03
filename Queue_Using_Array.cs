@@ -1,4 +1,6 @@
 using System;
+//Enqueue : add an element from the back of the list.
+//Dequeue : delete an element from the beggining of the list.
 namespace Queuearr
 {
     class Queue
@@ -76,22 +78,22 @@ namespace Queuearr
             Console.WriteLine("Enter the size : ");
             int size = int.Parse(Console.ReadLine());
             Queue L = new Queue(size);
-            L.enqueue(10);
-            L.enqueue(11);
-            L.enqueue(12);
-            L.enqueue(13);
-            L.enqueue(14);
-            L.display();
-            L.dequeue();
-            L.size();
-            Console.WriteLine(L.is_empty());
-            Console.WriteLine(L.is_full());
-            L.dequeue();
-            L.dequeue();
-            L.dequeue();
-            L.dequeue();
-            L.dequeue();
-            L.dequeue();
+            L.enqueue(10);//10
+            L.enqueue(11);//10 11
+            L.enqueue(12);//10 11 12
+            L.enqueue(13);//10 11 12 13
+            L.enqueue(14);//10 11 12 13 14
+            L.display();//10 11 12 13 14
+            L.dequeue();//10 - > 11 12 13 14
+            L.size();//4
+            Console.WriteLine(L.is_empty());//false
+            Console.WriteLine(L.is_full());//false
+            L.dequeue();//11 - > 12 13 14
+            L.dequeue();//12 - > 13 14
+            L.dequeue();//13 - > 14
+            L.dequeue();//13 - >
+            L.dequeue();//empty!
+            L.dequeue();//empty!
         }
     }
 }
