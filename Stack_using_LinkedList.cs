@@ -1,5 +1,4 @@
 using System;
-
 namespace StackLL
 {
     class Node
