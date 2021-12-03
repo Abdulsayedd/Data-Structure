@@ -1,5 +1,4 @@
 using System;
-
 namespace Stackarr
 {
     class stack
