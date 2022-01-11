@@ -3,7 +3,7 @@ using System;
 //Dequeue : delete an element from the beggining of the list.
 namespace Queuearr
 {
-    class Queue
+     class Queue
     {
         public int head, rear;
         int[] arr;
