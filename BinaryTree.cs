@@ -242,7 +242,7 @@ namespace Binary_Search_Tree
             b.delete(33);
             b.print_inorder();
             b.print_postorder();
-            b.print_preorder();
+            b.print_preorder();//pre
         }
     }
 }
