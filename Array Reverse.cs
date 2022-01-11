@@ -21,7 +21,7 @@ namespace Reverse
             }
             for (int i = 0; i < reversed_array.Length; i++)
             {
-                Console.Write(reversed_array[i] + " ");
+                Console.Write(reversed_array[i] + " ") ;
             }
         }
     }
