@@ -1,7 +1,7 @@
 using System;
 namespace Stackarr
 {
-    class stack
+     class stack
     {
         public int top;
         public int[] arr;
