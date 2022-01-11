@@ -24,7 +24,7 @@ namespace Symmetric_Array
                 }
             }
             if(symmetric)
-                 Console.WriteLine("Symmetric"); 
+                Console.WriteLine("Symmetric"); 
             else
                 Console.WriteLine("Not Symmetric");
         }
