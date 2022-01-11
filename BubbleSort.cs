@@ -2,7 +2,7 @@ using System;
 
 namespace Bubble_Sort
 {
-    class Program
+   class Program
     {
         public void Sort(int[] arr)
         {
