@@ -129,7 +129,7 @@ namespace Binary_Search_Tree
             {
                 root = root.left;
             }
-            return root;
+             return root;
         }
         public void max()
         {
