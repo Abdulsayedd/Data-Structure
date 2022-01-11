@@ -2,7 +2,7 @@ using System;
 
 namespace DD_ARRAY
 {
-        class Program
+       class Program
      {
         static void Main(string[] args)
         {
