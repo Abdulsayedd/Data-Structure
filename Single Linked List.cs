@@ -2,7 +2,7 @@ using System;
 
 namespace Single_Linked_List
 {
-    class Node
+     class Node
     {
         public int data;
         public Node next;
