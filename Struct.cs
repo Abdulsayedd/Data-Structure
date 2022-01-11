@@ -8,7 +8,7 @@ namespace Struuct
         public string color;
         public string Plate_number;
     }
-        class Program
+         class Program
     {
         static void Main(string[] args)
         {
