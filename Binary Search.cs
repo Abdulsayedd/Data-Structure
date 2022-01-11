@@ -2,7 +2,7 @@ using System;
 
 namespace Binary_Search
 {
-    class Program
+   class Program
     {
         public void Sort(int[] arr, int size, int find)
         {
