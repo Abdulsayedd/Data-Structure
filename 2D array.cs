@@ -25,7 +25,7 @@ namespace DD_ARRAY
                 {
                     Console.Write(Arr[i,j] + " ");
                 }
-                Console.WriteLine();
+                 Console.WriteLine();
             }
         }
     }
