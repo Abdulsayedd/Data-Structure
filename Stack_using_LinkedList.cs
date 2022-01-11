@@ -40,7 +40,7 @@ namespace StackLL
         }
         public void peek()
         {
-            Console.WriteLine(head.data);
+             Console.WriteLine(head.data);
         }
         public void display()
         {
