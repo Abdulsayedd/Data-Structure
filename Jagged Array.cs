@@ -2,7 +2,7 @@ using System;
 
 namespace Jagged_Array
 {
-        class Program
+       class Program
      {
         static void Main(string[] args)
         {
